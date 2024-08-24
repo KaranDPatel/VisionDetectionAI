@@ -21,19 +21,11 @@ Required Python packages: opencv-python, matplotlib, numpy.
 
 **Installation**
 Clone the Repository:
-
-
-sh
-Copy code
-git clone url
-cd object-detection-mobilenetssd
+- git clone url
 
 **Install Required Python Packages:**
-
-sh
-Copy code
-pip install opencv-python matplotlib numpy
-
+- pip install opencv-python matplotlib numpy
+- 
 Download the Pre-Trained Model:
 
 Ensure you have the following files in the project directory:
@@ -42,16 +34,11 @@ MobileNetSSD_deploy.prototxt.txt
 MobileNetSSD_deploy.caffemodel
 You can download them from the official Caffe Model Zoo.
 Usage
+
 Run the Object Detection Script:
-
-sh
-Copy code
-
-python object_detection.py
+- python object_detection.py
 
 Video Input:
-
-
 The script processes a video file named testvideo.mp4. Replace this with your video file for custom input.
 
 Object Detection in Real-Time:
@@ -60,12 +47,7 @@ The script will open a window displaying the video with detected objects highlig
 
 Press q to quit the video feed and close the window.
 File Structure
-php
-Copy code
 object-detection-mobilenetssd/
-
-│
-
 ├── object_detection.py         # Main script for object detection
 
 ├── MobileNetSSD_deploy.prototxt.txt  # Model configuration file
@@ -77,6 +59,7 @@ object-detection-mobilenetssd/
 ├── README.md                   # This readme file
 
 └── requirements.txt            # List of Python dependencies (if applicable)
+
 **Customization**
 
 Confidence Threshold: Adjust the confidence threshold for detecting objects by modifying the confidence > 0.5 line in the script.
