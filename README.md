@@ -17,15 +17,19 @@ User-Friendly Interface: Provides real-time visualization of detected objects wi
 **Prerequisites**
 
 Python 3.x installed on your system.
+
 Required Python packages: opencv-python, matplotlib, numpy.
 
 **Installation**
+
 Clone the Repository:
+
 - git clone url
 
 **Install Required Python Packages:**
+
 - pip install opencv-python matplotlib numpy
-- 
+   
 Download the Pre-Trained Model:
 
 Ensure you have the following files in the project directory:
