@@ -35,8 +35,11 @@ Download the Pre-Trained Model:
 Ensure you have the following files in the project directory:
 
 MobileNetSSD_deploy.prototxt.txt
+
 MobileNetSSD_deploy.caffemodel
+
 You can download them from the official Caffe Model Zoo.
+
 Usage
 
 Run the Object Detection Script:
@@ -50,8 +53,11 @@ Object Detection in Real-Time:
 The script will open a window displaying the video with detected objects highlighted by bounding boxes and labels.
 
 Press q to quit the video feed and close the window.
+
 File Structure
+
 object-detection-mobilenetssd/
+
 ├── object_detection.py         # Main script for object detection
 
 ├── MobileNetSSD_deploy.prototxt.txt  # Model configuration file
